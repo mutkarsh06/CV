@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.pic {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right {
+    flex: 2;
+    padding-left: 20px;
+    border-left: 2px solid #333;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    margin-top: 60px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10%;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin-left: 20px;
+}
